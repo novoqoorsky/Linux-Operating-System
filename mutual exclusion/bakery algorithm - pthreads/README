@@ -5,8 +5,10 @@ Author: Dominik Nowogorski                               Cracow, 31.05.2017
 * Content:
 ============
 
-Folder contains a program that simulates the mutual exclusion problem using Pthreads with bakery algorithm.
-The goal is to synchronize N threads so that only one at time can modify a shared data, particularly an integer variable.
+Folder contains a program that simulates the mutual exclusion problem using 
+Pthreads with bakery algorithm.
+The goal is to synchronize N threads so that only one at time can modify
+a shared data, particularly an integer variable.
 
 	Included files:
 	1) main.c					main program
