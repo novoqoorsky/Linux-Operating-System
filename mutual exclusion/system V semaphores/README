@@ -1,18 +1,19 @@
-========================================================================
-Author: Dominik Nowogorski,                               Cracow, 03.05.2017
-========================================================================
+============================================================================
+Author: Dominik Nowogorski                               Cracow, 03.05.2017
+============================================================================
 
 * Content:
 ============
 
-Folder contains a program that simulates the mutual exclusion problem using system V semaphore.
+Folder contains a program that simulates the mutual exclusion problem using 
+system V semaphore.
 
     Included files:    
     1) main.c					main program
 
-    2) lib_sem.h					semaphore functions
-       lib_sem.c					library 
-------------------------------------------------------------------------
+    2) lib_sem.h				semaphore functions
+       lib_sem.c				library 
+----------------------------------------------------------------------------
 
 * How to run:
 =========================
@@ -22,7 +23,7 @@ Catalog contains Makefile for compiling and running the program.
 -> To compile, type make
 -> To run the program, type make run
 -> For after-usage-clean, type make clean
-========================================================================
+============================================================================
 
 
 
