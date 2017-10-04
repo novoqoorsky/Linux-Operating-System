@@ -1,19 +1,20 @@
 ========================================================================
-Author: Dominik Nowogorski,                               Cracow, 24.05.2017
+Author: Dominik Nowogorski                           Cracow, 24.05.2017
 ========================================================================
 
 * Content:
 ============
 
-Folder contains a program that simulates server - client problem using message queue.
+Folder contains a program that simulates server - client problem using 
+message queue.
 
     Included files:    
     1) server.c					server program
 
     2) client.c					client program
 
-    3) lib_msg.h					message queue functions
-       lib_msg.c					library
+    3) lib_msg.h				message queue functions
+       lib_msg.c				library
 ------------------------------------------------------------------------
 
 * How to run:
