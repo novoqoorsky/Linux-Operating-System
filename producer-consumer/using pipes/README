@@ -1,6 +1,6 @@
-========================================================================
-Author: Dominik Nowogorski		                      Cracow, 19.04.2017
-========================================================================
+=========================================================================
+Author: Dominik Nowogorski		              Cracow, 19.04.2017
+=========================================================================
 
 * Content:
 ============
@@ -9,15 +9,15 @@ Folder contains a program that simulates the producer - consumer
 problem using FIFO pipe.
 
 	Included files:
-	1)	producer.c			source code for producer 								process
-		consumer.c			source code for consumer 								process
+	1)	producer.c		source code for producer process
+		consumer.c		source code for consumer process
 
-	2) 	lib_pipe.h			a library of pipe handling
-		lib_pipe.c			functions
+	2) 	lib_pipe.h		a library of pipe handling
+		lib_pipe.c		functions
 
 	3)	producer.txt		text file containing producer
-                            	material
-------------------------------------------------------------------------
+                            		material
+-------------------------------------------------------------------------
 
 * How to run:
 ==============
@@ -28,7 +28,7 @@ Catalog contains Makefile for compiling and running the program
 -> To run producer process, type make runP
 -> To run consumer process, type make runC
 -> For after-usage-clean, type make clean
-========================================================================
+=========================================================================
 
 
 
