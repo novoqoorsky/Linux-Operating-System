@@ -1,6 +1,6 @@
-========================================================================
-Author: Dominik Nowogorski,                               Cracow, 16.05.2017
-========================================================================
+=========================================================================
+Author: Dominik Nowogorski                            Cracow, 16.05.2017
+=========================================================================
 
 * Content:
 ============
@@ -9,19 +9,19 @@ Folder contains a program that simulates the producer - consumer
 problem using shared memory and system V semaphore.
 
     Included files:
-	1)	producer.c			source code for producer 								process
-		consumer.c			source code for consumer 								process
+	1)	producer.c		source code for producer process
+		consumer.c		source code for consumer process
 
-	2) 	lib_sem.h			a library of semaphore
-		lib_sem.c			handling functions
+	2) 	lib_sem.h		a library of semaphore
+		lib_sem.c		handling functions
 
-	3)	lib_shm.h			a library of shared memory
-		lib_shm.c			handling functions
+	3)	lib_shm.h		a library of shared memory
+		lib_shm.c		handling functions
 
 	4)	producer.txt		text file containing producer
-                            	material
+                            		material
 
-------------------------------------------------------------------------
+-------------------------------------------------------------------------
 
 * How to run:
 =========================
@@ -29,7 +29,8 @@ problem using shared memory and system V semaphore.
 Catalog contains Makefile for compiling and running the program
 
 -> To compile the program using static library, type make main
--> To compile the program using dynamic library (shared object), 	type make mainSO
+-> To compile the program using dynamic library (shared object),
+	type make mainSO
 -> To run the program, type make run
 -> For after-usage-clean, type make clean
-========================================================================
+=========================================================================
